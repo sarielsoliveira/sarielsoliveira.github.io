@@ -453,6 +453,11 @@ body {
   text-align: center;
 }
 
+/* ===== FINDINGS The usability study revealed several key findings:===== */
+.bold-text {
+    font-weight: 700; /* ou 600 para negrito médio */
+}
+
 /* Imagem 8 */
 .artorbit-image8 {
   display: block;
