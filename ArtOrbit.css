@@ -349,6 +349,16 @@ body {
   border-radius: 0px;
 }
 
+/* Imagem 7 */
+.artorbit-image7 {
+  display: block;
+  max-width: 900px; /* Tamanho adaptado */
+  width: 100%;
+  height: auto;
+  margin: 40px auto 60px;
+  border-radius: 0px;
+} 
+
 /* =========== PRIMARY USER FLOW =========== */
 .primaryflow-title {
   font-family: 'Martel', serif;
