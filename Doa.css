@@ -760,6 +760,10 @@ body { background: #fff; font-family: 'Koulen', sans-serif; }
   text-align: center;     /* centraliza o texto */
 }
 
+/* ===== FINDINGS The usability study revealed several key findings:===== */
+.bold-text {
+    font-weight: 700; /* ou 600 para negrito médio */
+}
 
 
 
