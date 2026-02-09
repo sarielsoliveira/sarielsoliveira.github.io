@@ -145,6 +145,25 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // =========================================
+            // PROTEÇÃO CONTRA DOWNLOAD - IGUAL AO WATER
+            // =========================================
+            
+            // Bloqueia menu de contexto em imagens
+            document.addEventListener('contextmenu', function(e) {
+                if (e.target.tagName === 'IMG') {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            // Bloqueia arrastar imagens
+            document.addEventListener('dragstart', function(e) {
+                if (e.target.tagName === 'IMG') {
+                    e.preventDefault();
+                    return false;
+                }
+            });
             // Seleciona todas as imagens da galeria Sea
             const images = document.querySelectorAll('[data-lightbox="sea-gallery"]');
             const lightbox = document.getElementById('lightbox');
