@@ -457,3 +457,16 @@
         gap: 25px;
     }
 }
+
+/* =========================================
+   PROTEÇÃO CONTRA DOWNLOAD - IGUAL AO WATER
+   ========================================= */
+.rock-img, .rock-img-half, .rock-img-vertical, .rock-img-wide,
+#lightbox-image {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
