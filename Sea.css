@@ -387,3 +387,16 @@
         opacity: 1 !important;
     }
 }
+
+/* =========================================
+   PROTEÇÃO CONTRA DOWNLOAD - IGUAL AO WATER
+   ========================================= */
+.sea-img, .sea-img-half, .sea-img-vertical, .sea-img-wide,
+#lightbox-image {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
